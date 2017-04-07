@@ -47,7 +47,7 @@ What App using ZFPlayer, and on AppStore, please tell me, help me to statistics.
 ### CocoaPods    
 
 ```ruby
-pod 'ZFPlayer'
+pod 'ZFPlayer-RCI'
 ```
 
 Then, run the following command:
