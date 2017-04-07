@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-    s.name         = 'ZFPlayer'
+    s.name         = 'ZFPlayer-RCI’
     s.version      = ‘2.1.3.1’
     s.summary      = 'A good player made by renzifeng'
     s.homepage     = 'https://github.com/stevenen/ZFPlayer'
     s.license      = 'MIT'
-    s.authors      = { 'renzifeng' => 'zifeng1300@gmail.com' }
+    s.authors      = { ‘stevenen’ => ‘stevenen85@gmail.com' }
     #s.platform     = :ios, '7.0'
     s.ios.deployment_target = '7.0'
     s.source       = { :git => 'https://github.com/stevenen/ZFPlayer.git', :tag => s.version.to_s }
