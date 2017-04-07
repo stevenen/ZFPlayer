@@ -1279,7 +1279,7 @@ typedef NS_ENUM(NSInteger, PanDirection){
 - (void)setControlView:(UIView *)controlView {
     if (_controlView) { return; }
     _controlView = controlView;
-    controlView.delegate = self;
+    controlView.playerViewDelegate = self;
     [self layoutIfNeeded];
     [self addSubview:controlView];
     [controlView mas_makeConstraints:^(MASConstraintMaker *make) {
