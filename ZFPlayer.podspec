@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.authors      = { 'renzifeng' => 'zifeng1300@gmail.com' }
     #s.platform     = :ios, '7.0'
     s.ios.deployment_target = '7.0'
-    s.source       = { :git => 'https://github.com/stevenen/ZFPlayer.git', :tag => s.version.to_s }
+    s.source       = { :git => 'https://github.com/stevenen/ZFPlayer.git', :branch => s.version.to_s }
     s.source_files = 'ZFPlayer/**/*.{h,m}'
     s.resource     = 'ZFPlayer/ZFPlayer.bundle'
     s.framework    = 'UIKit','MediaPlayer'
